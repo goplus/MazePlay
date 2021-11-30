@@ -3,15 +3,15 @@ var (
 )
 
 onStart => {
-	setXYpos -204,145
+	setXYpos -204, 145
 	for {
 		changeXpos mx
 		changeYpos my
 		mx = 0.0
 		my = 0.0
 		if touching("Maze") {
-			play mhit,false
-			setXYpos -204,145
+			play mhit, false
+			setXYpos -204, 145
 		}
 		if touching("Red") {
 			say "You win"
@@ -19,20 +19,20 @@ onStart => {
 
 		wait 0.03
 	}
-	
+
 }
 onKey KeyUp, => {
-	my =  3
+	my = 3
 }
 
 onKey KeyDown, => {
-	my =  - 3
+	my = -3
 }
 
 onKey KeyLeft, => {
-	mx =  - 3
+	mx = -3
 }
 
 onKey KeyRight, => {
-	mx =   3
+	mx = 3
 }
