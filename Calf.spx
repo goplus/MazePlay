@@ -1,38 +1,31 @@
-var (
-	mx, my float64
-)
-
 onStart => {
 	setXYpos -204, 145
 	for {
-		changeXpos mx
-		changeYpos my
-		mx = 0.0
-		my = 0.0
 		if touching("Maze") {
-			play mhit, false
+			play mhit
 			setXYpos -204, 145
 		}
 		if touching("Red") {
 			say "You win"
+			wait 3
+			exit
 		}
-
 		wait 0.03
 	}
-
 }
+
 onKey KeyUp, => {
-	my = 3
+	changeYpos 3
 }
 
 onKey KeyDown, => {
-	my = -3
+	changeYpos -3
 }
 
 onKey KeyLeft, => {
-	mx = -3
+	changeXpos -3
 }
 
 onKey KeyRight, => {
-	mx = 3
+	changeXpos 3
 }
