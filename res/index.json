@@ -1,0 +1,17 @@
+{
+    "costumes": [
+      {
+        "bitmapResolution": 1,
+        "name": "backdrop1",
+        "path": "img/backdrop1.png",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "currentCostumeIndex": 0,
+    "zorder": [
+      "Maze",
+      "Calf",
+      "Red"
+    ]
+  }
