@@ -3,8 +3,8 @@ module github.com/goplus/MazePlay
 go 1.16
 
 require (
-	github.com/goplus/gop v1.0.22
-	github.com/goplus/spx v1.0.0-beta5
+	github.com/goplus/gop v1.0.36
+	github.com/goplus/spx v1.0.0-rc3.3
 )
 
 replace (
