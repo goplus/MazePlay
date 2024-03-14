@@ -1,4 +1,4 @@
-MazePlay - a game powered by Go+ spx game engine
+MazePlay - powered by Go+ Builder
 =========
 
 [![Language](https://img.shields.io/badge/language-Go+-blue.svg)](https://github.com/goplus/gop)
@@ -9,8 +9,8 @@ MazePlay - a game powered by Go+ spx game engine
 
 ### How to run
 
-- Download Go+ and build it. See https://github.com/goplus/gop#how-to-build.
+- Install Go+. See https://github.com/goplus/gop#how-to-install.
 - Download this game and run.
   * git clone https://github.com/goplus/MazePlay.git
   * cd MazePlay
-  * ./run.sh
+  * gop run .
