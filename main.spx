@@ -4,5 +4,3 @@ var (
 	Red  Red
 	mhit Sound
 )
-
-run "res", {Title: "MazePlay (by Go+)"}
