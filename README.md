@@ -5,7 +5,7 @@ MazePlay - powered by Go+ Builder
 [![GitHub release](https://img.shields.io/github/v/tag/goplus/MazePlay.svg?label=release)](https://github.com/goplus/MazePlay/releases)
 [![Language](https://img.shields.io/badge/game_engine-spx-green.svg)](https://github.com/goplus/spx)
 
-![Screen Shot](res/1.jpg)
+![Screen Shot](assets/1.jpg)
 
 ### How to run
 
