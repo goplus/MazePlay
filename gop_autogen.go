@@ -7,15 +7,15 @@ import "github.com/goplus/spx"
 const _ = true
 
 type Calf struct {
-	spx.Sprite
+	spx.SpriteImpl
 	*Game
 }
 type Maze struct {
-	spx.Sprite
+	spx.SpriteImpl
 	*Game
 }
 type Red struct {
-	spx.Sprite
+	spx.SpriteImpl
 	*Game
 }
 type Game struct {
@@ -41,16 +41,16 @@ func (this *Calf) Main() {
 		for {
 			spx.Sched()
 //line Calf.spx:4:1
-			if this.Touching("Maze") {
+			if this.Touching__0("Maze") {
 //line Calf.spx:5:1
 				this.Play__0(this.mhit)
 //line Calf.spx:6:1
 				this.SetXYpos(-204, 145)
 			}
 //line Calf.spx:8:1
-			if this.Touching("Red") {
+			if this.Touching__0("Red") {
 //line Calf.spx:9:1
-				this.Say("You win")
+				this.Say__0("You win")
 //line Calf.spx:10:1
 				this.Wait(3)
 //line Calf.spx:11:1
